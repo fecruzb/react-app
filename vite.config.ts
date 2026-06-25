@@ -6,4 +6,7 @@ export default defineConfig({
     outDir: '../dist',
     emptyOutDir: true,
   },
+  preview: {
+    allowedHosts: true,
+  },
 });
